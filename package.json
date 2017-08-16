@@ -1,0 +1,23 @@
+{
+  "name": "zwave-generator",
+  "version": "1.0.0",
+  "description": "Generator for Homey Z-Wave apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zwaveGenerator": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "commander": "^2.9.0",
+    "homey-meshdriver": "git+https://github.com/athombv/node-homey-meshdriver.git",
+    "js-beautify": "^1.6.9",
+    "request": "^2.79.0",
+    "sharp": "^0.17.2",
+    "underscore": "^1.8.3"
+  }
+}
