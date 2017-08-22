@@ -6,22 +6,22 @@ NOTE: this tool was created as a side project and might contain bugs.
 
 ## How to use it
 
-###Install it
+### Install it
 ```bash
 npm install -g https://github.com/athombv/zwave-generator
 ```
 
-###Update products database (this might take a while), only necessary on first install
+### Update products database (this might take a while), only necessary on first install
 ```bash
 zwaveGenerator updateProducts
 ```
 
-###Generate driver config and .js
+### Generate driver config and .js
 ```bash
 zwaveGenerator generate --zwave-alliance-product-id 2336 --driver-id CO_Sensor --driver-class sensor --capabilities measure_temperature,measure_battery,alarm_co,alarm_heat
 ```
 
-###Help
+### Help
 ```bash
 zwaveGenerator --help
 ```
