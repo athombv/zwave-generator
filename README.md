@@ -1,3 +1,5 @@
+# DEPRECATED: This functionality has been embedded in [athom-cli](https://github.com/athombv/node-athom-cli)
+
 # Z-Wave Generator
 
 This a development tool that can be used to generate Z-Wave drivers for Homey (SDK1 and SDK2). Keep in mind, it does the heavy lifting, but it does not produce release-ready code. It is just meant to speed up the development process.
